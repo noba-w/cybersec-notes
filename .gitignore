@@ -1,0 +1,23 @@
+# Notas/borradores locales que no deben publicarse
+private/
+drafts/
+scratch/
+
+# Secretos y credenciales
+*.pem
+*.key
+*.pfx
+*.p12
+.env
+.env.*
+*_history
+id_rsa*
+id_ed25519*
+
+# Capturas de tráfico y dumps que suelen contener datos sensibles
+*.pcap
+*.pcapng
+
+# Sistema
+.DS_Store
+Thumbs.db
