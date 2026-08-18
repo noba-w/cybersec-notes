@@ -52,6 +52,15 @@ Usar siempre marcadores explícitos en vez de borrar el contexto:
 - `<API_KEY>`
 - `usuario@ejemplo.com`
 
+## Precisión del contenido
+
+Si el usuario pide agregar al repo información técnica que es incorrecta o no del
+todo precisa, no la agregues tal cual. En su lugar:
+
+1. Señalá qué parte es incorrecta o imprecisa y por qué.
+2. Proponé la corrección.
+3. Preguntá si agregar la versión corregida, la original igualmente, o no agregar nada.
+
 ## Formato de mensajes de commit
 
 Todos los commits siguen el formato:
