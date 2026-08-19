@@ -81,7 +81,8 @@ Ejemplo: `[TryHackMe] agrega notas de la sala nmap`
 
 ## Estructura del repo
 
-- `tryhackme/` — apuntes de salas y rutas de TryHackMe. Ver `tryhackme/README.md`
-  para la plantilla de notas.
+- `tryhackme/` — apuntes de salas y rutas de TryHackMe, separados en
+  `ofensiva/` (ataque/Red Team) y `defensiva/` (defensa/Blue Team). Ver
+  `tryhackme/README.md` para la plantilla de notas de cada una.
 - Cada nueva plataforma o tema (HackTheBox, CTFs, teoría de redes, etc.) puede tener
   su propia carpeta de nivel superior con el mismo criterio de este archivo.
