@@ -2,9 +2,6 @@
 
 Apuntes de CTFs (Capture The Flag) jugados o resueltos como práctica.
 
-Antes de escribir acá, revisar las reglas de [`CLAUDE.md`](../CLAUDE.md) en la raíz
-del repo, en particular:
-
 - No publicar flags/respuestas literales de retos activos o de pago.
 - No pegar screenshots sin revisar antes.
 
