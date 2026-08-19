@@ -98,3 +98,18 @@ Ejemplo: `[TryHackMe] agrega notas de la sala nmap`
   el mismo criterio de este archivo; las notas de herramientas/protocolos que no
   sean específicas de una plataforma van en `herramientas/`, no duplicadas por
   plataforma.
+
+## Herramientas usadas en una máquina/tarea nueva
+
+Al agregar el write-up de una máquina o tarea nueva, revisar qué herramientas o
+protocolos se usaron (nmap, ftp, ssh, gobuster, etc.) y comprobar si ya tienen nota
+en `herramientas/`. Si alguna no está documentada:
+
+1. Crear su archivo en `herramientas/` con una descripción breve (qué es, para qué
+   sirve, comandos básicos) siguiendo el estilo de las notas existentes (ej.
+   `herramientas/ftp.md`).
+2. Enlazar esa nota desde el write-up de la máquina, en vez de repetir la teoría ahí.
+
+No hace falta preguntar antes de crear la nota de la herramienta: es una nota
+general y de bajo riesgo. Sí seguir aplicando el resto de reglas de este archivo
+(sin IPs/flags reales, etc.) y avisar antes de commitear si hay algo dudoso.

@@ -5,6 +5,14 @@
 - SO: Linux
 - Fecha: 2026-08-19
 
+## Descripción oficial (HTB)
+
+> Meow is a very easy Linux machine which guides players on setting up their
+> attacking machines, connecting to HTB labs via VPN and demonstrates the
+> strategy of how to complete them. The machine focuses on beginner
+> enumeration techniques and showcases the exploitation of a vulnerable
+> Telnet service through default credentials.
+
 ## Resumen rápido (checklist)
 
 1. Conectar a la VPN de HTB con OpenVPN, usando el `.ovpn` de **Starting Point**:

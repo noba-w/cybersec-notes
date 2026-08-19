@@ -5,6 +5,11 @@
 - SO: Linux
 - Fecha: 2026-08-19
 
+## Descripción oficial (HTB)
+
+> Fawn is a very easy Linux machine which explores the File Transfer Protocol
+> (FTP) and its exploitation when misconfigured to allow anonymous access.
+
 ## Resumen rápido (checklist)
 
 1. Conectar a la VPN de Starting Point:
