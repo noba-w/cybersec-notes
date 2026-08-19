@@ -5,6 +5,10 @@ se commitea aquí es visible para cualquiera en internet. El objetivo de este ar
 es que Claude (y quien colabore) nunca inserte contenido sensible al escribir o editar
 notas.
 
+## Idioma
+
+Responder siempre en español castellano (de España), no en español latino.
+
 ## Regla general
 
 Antes de escribir o commitear cualquier nota, preguntarse: **"¿esto puede identificar
