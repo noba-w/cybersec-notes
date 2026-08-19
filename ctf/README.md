@@ -31,7 +31,6 @@ Una carpeta o archivo por CTF/plataforma, por ejemplo:
 ```
 ctf/
   README.md
-  _template.md
   picoctf/
   overthewire/
 ```

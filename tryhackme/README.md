@@ -18,17 +18,14 @@ Las notas se separan en dos carpetas según el enfoque:
 - `defensiva/` — defensa / Blue Team: detección, análisis de logs, SIEM, hardening,
   respuesta a incidentes.
 
-Cada carpeta tiene su propia `_template.md` como punto de partida. Dentro de cada una,
-una carpeta o archivo por sala/ruta, por ejemplo:
+Dentro de cada una, una carpeta o archivo por sala/ruta, por ejemplo:
 
 ```
 tryhackme/
   ofensiva/
-    _template.md
     nmap.md
     dirbuster.md
   defensiva/
-    _template.md
     log-analysis.md
 ```
 

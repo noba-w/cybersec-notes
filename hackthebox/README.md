@@ -29,7 +29,6 @@ previo y da menos guía paso a paso.
 ```
 hackthebox/
   README.md
-  _template.md
   nmap.md
   writeups/
     meow.md
