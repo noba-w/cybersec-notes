@@ -11,10 +11,14 @@ del repo, en particular:
 
 ## Organización
 
+Esta carpeta solo tiene notas de salas/rutas. Las notas de herramientas/protocolos
+(nmap, dirbuster, etc.) están en [`herramientas/`](../herramientas/) porque no son
+específicas de TryHackMe.
+
 Las notas se separan en dos carpetas según el enfoque:
 
-- `ofensiva/` — ataque / Red Team: explotación, reconocimiento, herramientas de
-  ataque (nmap, gobuster, etc.), salas de tipo "hackea esta máquina".
+- `ofensiva/` — ataque / Red Team: explotación, reconocimiento, salas de tipo
+  "hackea esta máquina".
 - `defensiva/` — defensa / Blue Team: detección, análisis de logs, SIEM, hardening,
   respuesta a incidentes.
 
@@ -23,8 +27,7 @@ Dentro de cada una, una carpeta o archivo por sala/ruta, por ejemplo:
 ```
 tryhackme/
   ofensiva/
-    nmap.md
-    dirbuster.md
+    <nombre-sala>.md
   defensiva/
     log-analysis.md
 ```

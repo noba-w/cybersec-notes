@@ -85,8 +85,16 @@ Ejemplo: `[TryHackMe] agrega notas de la sala nmap`
 
 ## Estructura del repo
 
+- `herramientas/` — notas de herramientas y protocolos de uso general (nmap, ftp,
+  etc.), sin atarlas a una plataforma. Los write-ups de salas/máquinas enlazan acá
+  en vez de repetir la teoría.
 - `tryhackme/` — apuntes de salas y rutas de TryHackMe, separados en
   `ofensiva/` (ataque/Red Team) y `defensiva/` (defensa/Blue Team). Ver
-  `tryhackme/README.md` para la plantilla de notas de cada una.
-- Cada nueva plataforma o tema (HackTheBox, CTFs, teoría de redes, etc.) puede tener
-  su propia carpeta de nivel superior con el mismo criterio de este archivo.
+  `tryhackme/README.md`.
+- `hackthebox/` — write-ups de máquinas de Hack The Box, en `writeups/` agrupados
+  por ruta/módulo. Ver `hackthebox/README.md`.
+- `ctf/` — retos de CTF resueltos como práctica. Ver `ctf/README.md`.
+- Cada nueva plataforma o tema puede tener su propia carpeta de nivel superior con
+  el mismo criterio de este archivo; las notas de herramientas/protocolos que no
+  sean específicas de una plataforma van en `herramientas/`, no duplicadas por
+  plataforma.

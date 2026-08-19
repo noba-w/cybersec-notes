@@ -20,8 +20,10 @@ previo y da menos guía paso a paso.
 
 ## Organización
 
-- Notas generales (teoría, herramientas) van sueltas en la raíz de `hackthebox/`,
-  por ejemplo `nmap.md`.
+Esta carpeta solo tiene write-ups de máquinas. Las notas de herramientas/protocolos
+(nmap, ftp, etc.) están en [`herramientas/`](../herramientas/) porque no son
+específicas de HTB.
+
 - `writeups/` — un archivo por máquina resuelta, agrupadas por ruta/módulo (ej.
   `starting-point/`), documentando la metodología y el razonamiento (qué se probó,
   por qué, qué vulnerabilidad se explotó), no el valor final de la flag.
@@ -29,7 +31,6 @@ previo y da menos guía paso a paso.
 ```
 hackthebox/
   README.md
-  nmap.md
   writeups/
     starting-point/
       meow.md

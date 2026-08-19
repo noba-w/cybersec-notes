@@ -12,8 +12,10 @@ publishing real credentials, targets, or literal platform flags.
 
 - [`tryhackme/`](tryhackme/) — TryHackMe rooms and learning paths, split into
   offensive (`ofensiva/`) and defensive (`defensiva/`) practice.
-- [`hackthebox/`](hackthebox/) — Hack The Box tool notes and machine write-ups.
+- [`hackthebox/`](hackthebox/) — Hack The Box machine write-ups.
 - [`ctf/`](ctf/) — CTF challenges solved as practice.
+- [`herramientas/`](herramientas/) — cross-platform tool and protocol notes
+  (nmap, FTP, etc.) referenced from the write-ups above.
 
 ## Workflow
 
