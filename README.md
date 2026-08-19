@@ -1,13 +1,22 @@
 # cybersec-notes
 
-Repositorio público de apuntes de ciberseguridad (teoría y práctica). Ver
-[`CLAUDE.md`](CLAUDE.md) para las reglas de contenido antes de escribir o commitear.
+Personal notes and write-ups from hands-on cybersecurity practice — offensive and
+defensive fundamentals, network reconnaissance, and CTF challenges — documented as
+I work through them on TryHackMe, Hack The Box, and other platforms.
 
-## Estructura
+Notes focus on **methodology and reasoning** (what was tried, why, and what it
+revealed) rather than just final answers, and follow a strict policy against
+publishing real credentials, targets, or literal platform flags.
 
-- [`tryhackme/`](tryhackme/) — apuntes de salas y rutas de TryHackMe.
-- [`ctf/`](ctf/) — apuntes de CTFs (Capture The Flag) jugados o resueltos como práctica.
-- [`hackthebox/`](hackthebox/) — apuntes y write-ups de máquinas de Hack The Box.
-- [`prompt-claude-escritorio.md`](prompt-claude-escritorio.md) — prompt para pegarle a
-  Claude de escritorio y que te devuelva las notas de una máquina en el formato que
-  uso acá.
+## Contents
+
+- [`tryhackme/`](tryhackme/) — TryHackMe rooms and learning paths, split into
+  offensive (`ofensiva/`) and defensive (`defensiva/`) practice.
+- [`hackthebox/`](hackthebox/) — Hack The Box tool notes and machine write-ups.
+- [`ctf/`](ctf/) — CTF challenges solved as practice.
+
+## Workflow
+
+[`prompt-claude-escritorio.md`](prompt-claude-escritorio.md) is a small prompt I use
+to turn raw session notes into a consistent, sanitized write-up format before adding
+them here.
