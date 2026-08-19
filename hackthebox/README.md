@@ -22,15 +22,16 @@ previo y da menos guía paso a paso.
 
 - Notas generales (teoría, herramientas) van sueltas en la raíz de `hackthebox/`,
   por ejemplo `nmap.md`.
-- `writeups/` — un archivo por máquina resuelta, en el orden en que se van haciendo,
-  documentando la metodología y el razonamiento (qué se probó, por qué, qué
-  vulnerabilidad se explotó), no el valor final de la flag.
+- `writeups/` — un archivo por máquina resuelta, agrupadas por ruta/módulo (ej.
+  `starting-point/`), documentando la metodología y el razonamiento (qué se probó,
+  por qué, qué vulnerabilidad se explotó), no el valor final de la flag.
 
 ```
 hackthebox/
   README.md
   nmap.md
   writeups/
-    meow.md
-    <siguiente-maquina>.md
+    starting-point/
+      meow.md
+      <siguiente-maquina>.md
 ```
